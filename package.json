@@ -1,0 +1,43 @@
+{
+	"name": "@echogarden/windows-media-tts",
+	"version": "0.1.0",
+	"description": "Node.js binding to the Windows Media text-to-speech API (Windows.Media.SpeechSynthesis).",
+	"author": "Rotem Dan",
+	"license": "MIT",
+	"keywords": [
+		"speech synthesis",
+		"text-to-speech",
+		"TTS",
+		"windows",
+		"Windows.Media.SpeechSynthesis",
+		"Universal Windows Platform",
+		"UWP"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/echogarden-project/windows-media-tts"
+	},
+	"bugs": {
+		"url": "https://github.com/echogarden-project/windows-media-tts/issues"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"main": "./dist/Exports.js",
+	"type": "module",
+	"files": [
+		"src",
+		"dist",
+		"addons/bin",
+		"tsconfig.json",
+		"README.md",
+		"LICENSE.md"
+	],
+	"scripts": {
+		"test": "node dist/Test.js"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@types/node": "^22.8.6"
+	}
+}
