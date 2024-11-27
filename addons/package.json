@@ -1,5 +1,5 @@
 {
-	"name": "windows-media-tts-addon",
+	"name": "@echogarden/windows-media-tts-addon",
 	"version": "0.1.0",
 	"description": "N-API addon for the Windows.Media.SpeechSynthesis API",
 	"author": "Rotem Dan",
