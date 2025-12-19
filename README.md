@@ -17,7 +17,7 @@ Uses N-API to bind to the Universal Windows Platform speech-synthesis API. The n
 
 ### List voices:
 ```ts
-import { getVoiceList, synthesize } from '@echogarden/window-media-tts'
+import { getVoiceList, synthesize } from '@echogarden/windows-media-tts'
 
 const voices = getVoiceList()
 
