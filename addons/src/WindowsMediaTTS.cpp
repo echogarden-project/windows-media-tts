@@ -126,7 +126,7 @@ Napi::Object synthesize(const Napi::CallbackInfo& info) {
 
 	auto voiceInfo = getVoiceInformation(voiceName);
 
-	if (!voiceInfo) {
+	if (voiceInfo) {
 		synth.Voice(voiceInfo);
 	}
 
