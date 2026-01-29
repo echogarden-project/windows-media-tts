@@ -10,7 +10,7 @@ if (!available) {
 
 const voices = getVoiceList()
 
-//console.log(voices)
+console.log(voices)
 
 const text = `Hello World`
 
