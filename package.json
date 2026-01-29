@@ -1,6 +1,6 @@
 {
 	"name": "@echogarden/windows-media-tts",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Node.js binding to the Windows Media text-to-speech API (Windows.Media.SpeechSynthesis).",
 	"author": "Rotem Dan",
 	"license": "MIT",
