@@ -1,6 +1,6 @@
 # Node.js binding to the Windows Media Speech Synthesis API
 
-Uses N-API to bind to the Universal Windows Platform speech-synthesis API. The native speech synthesizer on Windows 10 and newer.
+Uses N-API to bind to the Universal Windows Platform speech-synthesis API (`Windows.Media.SpeechSynthesis`). The native speech synthesizer on Windows 10 and later.
 
 * Speech is returned as a `Uint8Array`, in WAVE format
 * Will recognize voice packages installed via the Windows Speech settings
@@ -11,7 +11,7 @@ Uses N-API to bind to the Universal Windows Platform speech-synthesis API. The n
 
 ## Installation
 
-`npm install @echogarden/windows-media-tts`
+`npm install @echogarden/window-media-tts`
 
 ## Usage examples
 
