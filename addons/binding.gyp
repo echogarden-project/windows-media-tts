@@ -9,7 +9,9 @@
                         "include_dirs": [
                             "<!@(node -p \"require('node-addon-api').include\")"
                         ],
-                        "libraries": [],
+                        "libraries": [
+							"-lwindowsapp.lib"
+						],
                         "defines": ["NAPI_CPP_EXCEPTIONS"],
                         "cflags!": ["-fno-exceptions"],
                         "cflags_cc!": ["-fno-exceptions"],
